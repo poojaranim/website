@@ -1,0 +1,93 @@
+*
+{
+	margin:0
+	padding:0;
+}
+header {
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../p5.jpg);
+    height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+ul
+{
+	float: right;
+
+}
+ul li
+{
+	display:inline-block;
+}
+
+
+ul li a
+{
+text-decoration:none;
+color: rgba(50,200,200,4);
+padding: 5px ;
+margin-right: 4px;
+
+}
+ul li a:hover
+{
+	background-color: white;
+	transition: 0.6s ease;
+}
+ul li.active a
+{
+	color:rgb(160,220,113);
+	
+}
+.logo img 
+{
+	float: left;
+	padding: 5px;
+	width: 50px;
+	height: auto;
+}
+.main
+{
+	max-width: 1200px;
+	margin: auto;
+}
+.ss
+{
+	position:absolute;
+	top: 50%
+	left: 50%;
+	transform: translate(80%,80%);
+	}
+
+.ss h1
+{margin-top: 100px;
+	color:#E4FE52;
+	font-size: 50px;
+}
+.button
+{
+	position:absolute;
+	top: 100%
+	left: 100%;
+	padding-bottom: 330px;
+	padding-left: 150px;
+	transform: translate(100%,100%);
+
+
+}
+.button a
+{  
+border: 2px solid white;
+ padding: 4px;
+ 
+	color:rgba(100,200,100,4);
+text-decoration: none;
+ 
+    
+}
+
+.button a:hover
+{
+
+background-color: white;
+	transition: 0.6s ease;	
+}
